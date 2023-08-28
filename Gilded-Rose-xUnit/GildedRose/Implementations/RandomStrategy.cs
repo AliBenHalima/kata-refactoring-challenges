@@ -3,7 +3,7 @@ using GildedRoseKata;
 
 namespace GildedRose.Implementations
 {
-    public class InvalidStrategy : IItemStrategy
+    public class RandomStrategy : IItemStrategy
     {
         public void UpdateQuality(Item item)
         {

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using GildedRoseKata;
 using System.Linq;
 using FluentAssertions;
+using GildedRose.Interfaces.Factory;
+using GildedRose.Implementations.Factory;
+using GildedRose.Helpers;
 
 namespace GildedRoseTests
 {
@@ -35,5 +38,34 @@ namespace GildedRoseTests
             // Assert
             data.First().Quality.Should().Be(1);
         }
+
+        [Fact]
+        public void Conjured_Item_Quantity_And_Sellin_Should_Be_Updated()
+        {
+            // Arrange
+            IGildedRoseFactory factory = new GildedRoseFactory();
+            var item = new Item { Name = "Conjured Mana Cake", SellIn = 3, Quality = 6 };
+
+            // Act
+            var strategy = factory.CreateItemStartegy(item.Name);
+            strategy.UpdateQuality(item);
+            // Assert
+            item.Quality.Should().Be(4);
+            item.SellIn.Should().Be(2);
+        }
+
+        [Fact]
+        public void GildedRoseFactory_Should_Return_A_Strategy()
+        {
+            // Arrange
+            IGildedRoseFactory factory = new GildedRoseFactory();
+            string name = "Conjured Mana Cake";
+
+            // Act
+            var strategy = factory.CreateItemStartegy(name);
+            // Assert
+            
+        }
+
     }
 }

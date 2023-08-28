@@ -1,4 +1,5 @@
-﻿using GildedRose.Interfaces.Factory;
+﻿using GildedRose.Helpers;
+using GildedRose.Interfaces.Factory;
 using System;
 
 namespace GildedRose.Implementations.Factory
@@ -9,14 +10,16 @@ namespace GildedRose.Implementations.Factory
         {
             switch (Name)
             {
-                case "Aged Brie":
+                case Constants.AgedBrie:
                     return new AgedBrieStrategy();
-                case "Backstage passes to a TAFKAL80ETC concert":
+                case Constants.Backstage:
                     return new BackstageStrategy();
-                case "Sulfuras, Hand of Ragnaros":
+                case Constants.Sulfuras:
                     return new SulfurasStrategy();
+                case Constants.Conjured:
+                    return new ConjuredStrategy();
                 default:
-                    return new InvalidStrategy();
+                    return new RandomStrategy();
 
             }
         }
