@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trip-Service-Kata", "Trip-Service-Kata\Trip-Service-Kata.csproj", "{96952F4A-6D82-430F-AEA7-EF35B3EDED8C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trip-Service-Kata-Tests", "Trip-Service-Kata-Tests\Trip-Service-Kata-Tests.csproj", "{0C24FF7E-B59E-4F60-9D64-9AA934709534}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{405B1289-4B46-4847-9007-6E59C67FBEE7}"
@@ -13,20 +11,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ReadMe.Md = ReadMe.Md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trip-Service-Kata", "Trip-Service-Kata\Trip-Service-Kata.csproj", "{A2C20D19-20C3-4C01-9545-D9F2ED517A76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96952F4A-6D82-430F-AEA7-EF35B3EDED8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96952F4A-6D82-430F-AEA7-EF35B3EDED8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96952F4A-6D82-430F-AEA7-EF35B3EDED8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96952F4A-6D82-430F-AEA7-EF35B3EDED8C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C24FF7E-B59E-4F60-9D64-9AA934709534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C24FF7E-B59E-4F60-9D64-9AA934709534}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C24FF7E-B59E-4F60-9D64-9AA934709534}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C24FF7E-B59E-4F60-9D64-9AA934709534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C20D19-20C3-4C01-9545-D9F2ED517A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C20D19-20C3-4C01-9545-D9F2ED517A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C20D19-20C3-4C01-9545-D9F2ED517A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C20D19-20C3-4C01-9545-D9F2ED517A76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

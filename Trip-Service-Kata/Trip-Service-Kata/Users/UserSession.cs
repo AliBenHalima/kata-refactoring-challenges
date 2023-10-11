@@ -1,18 +1,10 @@
-﻿using TripServiceKata.Exception;
+﻿using Trip_Service_Kata.Interfaces;
+using TripServiceKata.Exception;
 
-namespace TripServiceKata.User
+namespace TripServiceKata.Users
 {
-    public class UserSession
-    {
-        private static readonly UserSession userSession = new UserSession();
-
-        private UserSession() { }
-
-        public static UserSession GetInstance()
-        {
-            return userSession;
-        }
-
+    public class UserSession : IUserSession
+    {   
         public bool IsUserLoggedIn(User user)
         {
             throw new DependendClassCallDuringUnitTestException(

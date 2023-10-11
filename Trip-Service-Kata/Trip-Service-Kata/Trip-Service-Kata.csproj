@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>Trip_Service_Kata</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enableullable>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>

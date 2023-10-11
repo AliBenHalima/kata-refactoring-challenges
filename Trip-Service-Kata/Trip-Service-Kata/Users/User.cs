@@ -1,30 +1,22 @@
 ﻿using System.Collections.Generic;
+using TripServiceKata.Trips;
 
-namespace TripServiceKata.User
+namespace TripServiceKata.Users
 {
     public class User
     {
-        private List<Trip.Trip> trips = new List<Trip.Trip>();
-        private List<User> friends = new List<User>();
-
-        public List<User> GetFriends()
-        {
-            return friends;
-        } 
+        public List<Trip> Trips { get; set; } = new List<Trip>();
+        public List<User> Friends { get; set; } = new List<User>();
 
         public void AddFriend(User user)
         {
-            friends.Add(user);
+            Friends.Add(user);
         }
 
-        public void AddTrip(Trip.Trip trip)
+        public void AddTrip(Trip trip)
         {
-            trips.Add(trip);
+            Trips.Add(trip);
         }
 
-        public List<Trip.Trip> Trips()
-        {
-            return trips;
-        } 
     }
 }
