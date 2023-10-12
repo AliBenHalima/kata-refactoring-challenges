@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events-And-Delegates-Kata", "Events-And-Delegates-Kata\Events-And-Delegates-Kata.csproj", "{2F20C390-4929-4F45-93E4-D33C7D90549A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events-And-Delegates-Kata-Tests", "Events-And-Delegates-Kata-Tests\Events-And-Delegates-Kata-Tests.csproj", "{E99541FC-105D-4314-BA1A-4F34A87903D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BA9511D-0EF5-4683-B671-D040D8179D08}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F20C390-4929-4F45-93E4-D33C7D90549A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F20C390-4929-4F45-93E4-D33C7D90549A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F20C390-4929-4F45-93E4-D33C7D90549A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F20C390-4929-4F45-93E4-D33C7D90549A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99541FC-105D-4314-BA1A-4F34A87903D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99541FC-105D-4314-BA1A-4F34A87903D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99541FC-105D-4314-BA1A-4F34A87903D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99541FC-105D-4314-BA1A-4F34A87903D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4C7465C-C4E5-4568-A046-215F7D5F08CF}
+	EndGlobalSection
+EndGlobal
