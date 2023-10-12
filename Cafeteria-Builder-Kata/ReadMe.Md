@@ -1,0 +1,1 @@
+Cafeteria Kata Refactoring Challenge.
