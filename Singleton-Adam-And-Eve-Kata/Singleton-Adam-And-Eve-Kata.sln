@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton-Adam-And-Eve-Kata", "Singleton-Adam-And-Eve-Kata\Singleton-Adam-And-Eve-Kata.csproj", "{90A5FA4E-88DE-47DE-9A9E-8DD4171B7334}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton-Adam-And-Eve-Kata-Tests", "Singleton-Adam-And-Eve-Kata-Tests\Singleton-Adam-And-Eve-Kata-Tests.csproj", "{5D319B33-EE58-4C57-83F5-353AB49FA7EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6906938-0D02-48A5-99F3-D30A6519A970}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90A5FA4E-88DE-47DE-9A9E-8DD4171B7334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A5FA4E-88DE-47DE-9A9E-8DD4171B7334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A5FA4E-88DE-47DE-9A9E-8DD4171B7334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A5FA4E-88DE-47DE-9A9E-8DD4171B7334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D319B33-EE58-4C57-83F5-353AB49FA7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D319B33-EE58-4C57-83F5-353AB49FA7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D319B33-EE58-4C57-83F5-353AB49FA7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D319B33-EE58-4C57-83F5-353AB49FA7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8305FBA2-96C8-486A-B882-43DB31230EF0}
+	EndGlobalSection
+EndGlobal
