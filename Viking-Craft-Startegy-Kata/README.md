@@ -1,0 +1,1 @@
+This is a Strategy pattern sample Implementation
