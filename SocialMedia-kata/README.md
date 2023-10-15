@@ -1,0 +1,1 @@
+SocialMedia Kata challenge with tests.
