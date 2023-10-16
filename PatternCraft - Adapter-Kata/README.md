@@ -1,0 +1,1 @@
+Adapter Pattern Kata Implementation with tests.
