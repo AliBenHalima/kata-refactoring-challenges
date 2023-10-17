@@ -1,0 +1,1 @@
+Media Pattern Kata Implementation with tests.
